@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dataDesign.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="span_wrapper">
+          <span id="span_One">Data</span>
+          <span id="span_Two">Collector</span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form action="">
+          <div class="dataInput_name">
+            <h1>Data Input</h1>
+          </div>
+          <div class="input_wrapper">
+            <!--Inputs  -->
+            <div>
+              <label for="firstName">First Name </label><br />
+              <input
+                class="all_inputs"
+                type="text"
+                id="firstName"
+                required
+              /><br />
+            </div>
+            <div>
+              <label for="lastName">Last Name </label><br />
+              <input
+                class="all_inputs"
+                type="text"
+                id="lastName"
+                required
+              /><br />
+            </div>
+            <div>
+              <label for="email">Email </label><br />
+              <input
+                class="all_inputs"
+                type="email"
+                id="email"
+                required
+              /><br />
+            </div>
+            <div>
+              <label for="marital">Marital Status </label><br />
+              <input
+                class="all_inputs"
+                type="text"
+                id="marital"
+                required
+              /><br />
+            </div>
+            <div>
+              <label for="ethnicity">Ethnicity</label><br />
+              <input
+                class="all_inputs"
+                type="text"
+                id="ethnicity"
+                required
+              /><br />
+            </div>
+            <!-- Radio Inputs -->
+            <div>
+              <label for="Gender">Gender</label><br />
+              <input type="radio" id="" name="gender" value="male" />
+              <label for="gender">Male</label>
+              <input type="radio" id="" name="gender" value="female" />
+              <label for="gender">Female</label>
+            </div>
+            <div>
+              <label for="Smoker">Do you Smoke?</label><br />
+              <input type="radio" id="" name="smoke" value="yes" />
+              <label for="smoke">yes</label>
+              <input type="radio" id="" name="smoke" value="no" />
+              <label for="smoke">no</label>
+            </div>
+            <div>
+              <label for="exercise">Do you Exercise?</label><br />
+              <input type="radio" id="" name="exercise" value="yes" />
+              <label for="excercise">yes</label>
+              <input type="radio" id="" name="exercise" value="no" />
+              <label for="excercise">no</label>
+            </div>
+            <div>
+              <label for="work">Do you work?</label><br />
+              <input type="radio" id="" name="work" value="yes" />
+              <label for="work">yes</label>
+              <input type="radio" id="" name="work" value="no" />
+              <label for="work">no</label>
+            </div>
+            <div>
+              <label for="kids">Do you have kids?</label><br />
+              <input type="radio" id="" name="kids" value="yes" />
+              <label for="kids">yes</label>
+              <input type="radio" id="" name="kids" value="no" />
+              <label for="kids">no</label>
+            </div>
+          </div>
+          <!-- submit button -->
+          <div class="submit_btn">
+            <button id="sub_btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="./dataCreator.js"></script>
+  </body>
+</html>
